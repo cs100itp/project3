@@ -1,0 +1,75 @@
+/* reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* set font and color for body */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* style header and navigation */
+header {
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/* style section headings */
+section h2 {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+/* style images */
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 10px 0;
+}
+
+/* style lists */
+ul, ol {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+ul li, ol li {
+  margin-bottom: 10px;
+}
+
+ol li {
+  counter-increment: item;
+}
+
+ol li:before {
+  content: counter(item) ". ";
+  font-weight: bold;
+}
+
+/* style strong text */
+strong {
+  font-weight: bold;
+}
